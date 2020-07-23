@@ -1,0 +1,8 @@
+[package]
+name = "nat_num_game"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.9.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "94ff59ad7efdcf0ae51809c2ee0dfd0ae605d249"}
